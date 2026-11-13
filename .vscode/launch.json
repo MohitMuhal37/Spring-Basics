@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Application",
+            "request": "launch",
+            "mainClass": "com.example.spring_boot.Application",
+            "projectName": "spring_boot"
+        },
+        {
+            "type": "java",
+            "name": "Application",
+            "request": "launch",
+            "mainClass": "spring_boot.src.main.java.com.example.spring_boot.Application",
+            "projectName": "Spring_85c9b563"
+        },
+        {
+            "type": "java",
+            "name": "Demo1Application",
+            "request": "launch",
+            "mainClass": "demo1.src.main.java.com.example.demo1.Demo1Application",
+            "projectName": "Spring_85c9b563"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-DemoApplication<demo>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
