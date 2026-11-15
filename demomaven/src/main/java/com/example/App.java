@@ -13,8 +13,11 @@ public class App
         ApplicationContext context = new ClassPathXmlApplicationContext("maven.xml");
         // programmer obj = new programmer();
         programmer obj = (programmer) context.getBean("programmer");
-        obj.code();
+        obj.age = 87;
+        System.out.println(obj.age);
+        // obj.code();
         programmer obj1 = (programmer) context.getBean("programmer");
-        obj1.code();
+        System.out.println(obj1.age);
+        // obj1.code();
     }
 }

@@ -5,10 +5,10 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- bean definitions here -->
-    <bean id="programmer" class="com.example.programmer">
+    <bean id="programmer" class="com.example.programmer" scope = "prototype">
     </bean>
-    <bean id="programmer1" class="com.example.programmer">
-    </bean>
+    <!-- <bean id="programmer1" class="com.example.programmer">
+    </bean> -->
     <bean class="com.example.laptop">
     </bean>
 </beans>
