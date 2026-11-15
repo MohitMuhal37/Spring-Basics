@@ -14,5 +14,7 @@ public class App
         // programmer obj = new programmer();
         programmer obj = (programmer) context.getBean("programmer");
         obj.code();
+        programmer obj1 = (programmer) context.getBean("programmer");
+        obj1.code();
     }
 }

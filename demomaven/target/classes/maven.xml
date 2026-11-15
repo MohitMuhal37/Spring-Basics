@@ -7,4 +7,8 @@
     <!-- bean definitions here -->
     <bean id="programmer" class="com.example.programmer">
     </bean>
+    <bean id="programmer1" class="com.example.programmer">
+    </bean>
+    <bean class="com.example.laptop">
+    </bean>
 </beans>
