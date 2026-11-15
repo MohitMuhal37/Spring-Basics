@@ -14,10 +14,10 @@ public class App
         // programmer obj = new programmer();
         programmer obj = (programmer) context.getBean("programmer");
         // obj.setAge(25);
-        System.out.println(obj.getAge());
+        // System.out.println(obj.getAge());
         // obj.age = 87;
         // System.out.println(obj.age);
-        // obj.code();
+        obj.code();
         programmer obj1 = (programmer) context.getBean("programmer");
         // System.out.println(obj1.age);
         // obj1.code();
