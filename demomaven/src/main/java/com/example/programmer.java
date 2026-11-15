@@ -6,6 +6,11 @@ public class programmer {
         System.out.println("Object Created");
     }
 
+    programmer(int age){
+        System.out.println("Parameterised Object Created");
+        this.age = age;
+    }
+
     private int age;
     private laptop lap;
 

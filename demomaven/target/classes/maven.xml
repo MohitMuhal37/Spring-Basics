@@ -10,6 +10,8 @@
     </property>
     <property name="lap" ref="lap">
     </property>
+
+    <constructor-arg value = "34"></constructor-arg>
     </bean>
     <!-- <bean id="programmer1" class="com.example.programmer">
     </bean> -->
